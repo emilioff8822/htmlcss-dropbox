@@ -103,10 +103,46 @@ background-color: lightblue;  }
 
 .colonna {
   width: calc(100% / 3);
+  margin-right: 50px;
   border: 1px solid black;
   height: 800px;
 }
 
 .riga.section1 {
   margin-top: 50px;
+}
+
+.titolino {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.testo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.prezzo {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.button {
+  margin-top: 40px;
+}
+.colonna button {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+}
+.colonna a{
+  color: blue;
 }
