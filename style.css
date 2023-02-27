@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.hcontainer {
+  margin-left: 30px;
+  min-width: 1200px;
+
+ 
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: darkorange;
+  height: 80px;
+  z-index: 999;
+}
+header li {
+  list-style: none;
+}
+header li a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+.menu ul li {
+  margin: 0 25px; }
+
+/*UTILITIES*/
+
+.flex {
+  display: flex;
+}
+.betw {
+  justify-content: space-between;
+}
+
+.h100 {
+  height: 100%;
+
+}
+
+.centra {
+  align-items: center;
+}
+
+.jcentra{
+  justify-content: center;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  padding-top: 80px;
+  height: 500px;
+  display: flex;
+align-items: center;
+background-color: lightblue;  }
+
+.jcontainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 60%;
+  background-color: lightgreen;
+}
+
+.text {
+  width: 40%;
+  background-color: brown;
+}
+.riga {
+  display: flex;
+  flex-direction: row;
+}
+
+/*s MAIN section*/
+
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.main1 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+}
+.radio {
+  margin-top: 30px;
+}
+
+.colonna {
+  width: calc(100% / 3);
+  border: 1px solid black;
+  height: 800px;
+}
+
+.riga.section1 {
+  margin-top: 50px;
+}
