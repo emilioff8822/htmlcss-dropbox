@@ -103,7 +103,7 @@ background-color: lightblue;  }
 
 .colonna {
   width: calc(100% / 3);
-  margin-right: 50px;
+  margin-right: 40px;
   border: 1px solid black;
   height: 800px;
 }
@@ -144,5 +144,22 @@ background-color: lightblue;  }
   padding: 10px;
 }
 .colonna a{
+  color: blue;
+}
+.minil {
+  margin-top: 50px;
+  
+}
+.colonna h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.colonna ul li {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 0.7rem;
+}
+.check {
   color: blue;
 }
