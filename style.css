@@ -58,7 +58,7 @@ header li a{
 /*JUMBOTRON*/
 .jumbotron {
   padding-top: 80px;
-  height: 500px;
+  height: 800px;
   display: flex;
 align-items: center;
 background-color: lightblue;  }
@@ -75,10 +75,29 @@ background-color: lightblue;  }
   font-size: 5rem;
 }
 
+.bots {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: lightskyblue;
+  border: none;
+  color: white;
+}
+.little {
+  margin-top: 10px;
+}
 
+.freccia {
+  font-size: 50px;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  font-weight: bold;
+
+  ƒ
+}
 .image img {
   width: 600px;
-  top: 20px;
+  top: 80px;
   left: 600px;
   position: absolute;
 }
@@ -86,6 +105,7 @@ background-color: lightblue;  }
 .text {
   width: 40%;
   margin-top: 30px;
+  position: relative;
 }
 .riga {
   display: flex;
@@ -287,23 +307,25 @@ width: 60%;
 }
 
 .col {
-flex-grow: 1;  
+width: 30vw ;  
 border: 1px solid black;
-height: 300px;
-}
-
-.col2 {
-  flex-grow: 1.5;  
+height: 30vw;}
+  
+  
+  
+  .col2 {
+width: 40vw;    
+border: 1px solid black;
+  height: 30vw;
+   }
+  
+    .box {
+  width: calc(100% / 2);
   border: 1px solid black;
-  height: 300px;
+  height: 15vw;
+  background-color: aqua;
   }
-
-  .box {
-    width: calc(100% / 2);
-    border: 1px solid black;
-    height: 150px;
-    background-color: aqua;
-  }
+  
   .box.verde {
     background-color: green;
   }
@@ -329,7 +351,11 @@ top: 30px;
 left: 30px;
 position: absolute;
   }
-  
+
+.col2 .t2{
+    margin-top: 150px;
+    margin-left: 30px;
+  }  
  
 .sep {
   height: 200px;
@@ -347,7 +373,7 @@ position: relative;
 .bott {
   position: absolute;
   right: 400px;
-  top: 3760px;
+  top: 4550px;
   padding: 10px;
   background-color:white; }
 
