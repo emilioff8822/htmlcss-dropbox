@@ -88,8 +88,7 @@ background-color: lightblue;  }
 
 .freccia {
   font-size: 50px;
-  position: absolute;
-  top: 250px;
+ 
   left: 0px;
   font-weight: bold;
 
@@ -225,8 +224,8 @@ background-color: lightblue;  }
   margin-left: 20px;
 }
 .colonna2 p {
-  font-size: .8rem
-  ;
+  font-size: .8rem;
+  position: relative;
 }
 
 .bottone {
@@ -259,7 +258,11 @@ margin-left: 0px;
 
   margin-left: 20px;
 }
+.botpart {
 
+  background-color: white;
+
+}
 .bott {
 margin-top: 20px;
 margin-left: 20px;
@@ -369,16 +372,17 @@ position: absolute;
 .sep h3{
   color: brown;
   font-size: 2rem;
-margin-left: 250px;
-padding-top: 100px;
-position: relative;
+
+}
+.cont {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .bott {
-  position: absolute;
-  right: 400px;
-  top: 4550px;
-  padding: 10px;
+  
   background-color:white; }
 
   .container2 {
