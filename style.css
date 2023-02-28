@@ -15,7 +15,7 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: darkorange;
+  background-color: white;
   height: 80px;
   z-index: 999;
 }
@@ -70,18 +70,27 @@ background-color: lightblue;  }
   display: flex;
   flex-direction: column;
 }
-.image {
-  width: 60%;
-  background-color: lightgreen;
+
+.jumbotron h1 {
+  font-size: 5rem;
+}
+
+
+.image img {
+  width: 600px;
+  top: 20px;
+  left: 600px;
+  position: absolute;
 }
 
 .text {
   width: 40%;
-  background-color: brown;
+  margin-top: 30px;
 }
 .riga {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 /*s MAIN section*/
@@ -92,10 +101,15 @@ background-color: lightblue;  }
   max-width: 1200px;
   margin: 0 auto;
 }
+.main3 {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
 
+}
 
 .main1 {
-  margin-top: 80px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
 
@@ -207,7 +221,6 @@ background-color: lightblue;  }
 
 .colonna3 {
   width: calc(100% / 2);
-  border: 1px solid black;
   height: 400px;
 }
 
@@ -241,7 +254,6 @@ border: 1px solid black;
 
 .card {
   width: calc(100% / 3);
-  border: 1px solid black;
   height: 400px;
 padding: 0 10px;  
 margin-bottom: 20px;
