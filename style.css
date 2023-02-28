@@ -97,7 +97,7 @@ background-color: lightblue;  }
 }
 .image img {
   width: 600px;
-  top: 80px;
+  top: 140px;
   left: 600px;
   position: absolute;
 }
@@ -246,12 +246,12 @@ background-color: lightblue;  }
 
 .riga2 h3 {
 margin-top: 40px;
-margin-left: 20px;
+margin-left: 0px;
 }
 
 .riga2 p {
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 00px;
 }
 
 .bott {
@@ -267,8 +267,6 @@ border: 1px solid black;
 .riga2 img{
   width: 80%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   
 }
 
