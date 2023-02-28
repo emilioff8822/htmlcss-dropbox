@@ -260,3 +260,82 @@ width: 60%;
   margin-left: 20px;
 
 }
+
+.main {
+  margin-top: 80px;
+
+}
+
+.main h2{
+  margin-bottom: 30px;
+}
+
+.main a{
+  color: blue;
+  font-size: .8rem;
+}
+
+.col {
+flex-grow: 1;  
+border: 1px solid black;
+height: 300px;
+}
+
+.col2 {
+  flex-grow: 1.5;  
+  border: 1px solid black;
+  height: 300px;
+  }
+
+  .box {
+    width: calc(100% / 2);
+    border: 1px solid black;
+    height: 150px;
+    background-color: aqua;
+  }
+  .box.verde {
+    background-color: green;
+  }
+  .box.marrone {
+    background-color: brown;
+  }
+  .box.blu {
+    background-color: blue;
+  }
+
+  .box.rosso{
+    background-color: lightcoral;
+  }
+
+  .col2 {
+    position: relative;
+    background-color: antiquewhite;
+    display: flex
+  }
+  .col2 img {
+width: 15%;
+top: 30px;
+left: 30px;
+position: absolute;
+  }
+  
+ 
+.sep {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
+.sep h3{
+  color: brown;
+  font-size: 2rem;
+margin-left: 250px;
+padding-top: 100px;
+position: relative;
+}
+
+.bott {
+  position: absolute;
+  right: 400px;
+  top: 3760px;
+  padding: 10px;
+  background-color:white; }
