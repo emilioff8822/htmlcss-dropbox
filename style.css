@@ -7,8 +7,6 @@ box-sizing: border-box;
 .hcontainer {
   margin-left: 30px;
   min-width: 1200px;
-
- 
 }
 
 header {
@@ -19,6 +17,20 @@ header {
   height: 80px;
   z-index: 999;
 }
+
+header ul li a:hover{
+border-bottom: 1px solid black;
+}
+
+header ul li a {
+  padding-bottom: 20px;
+}
+
+header ul li {
+  line-height:100% ;
+}
+
+
 header li {
   list-style: none;
 }
