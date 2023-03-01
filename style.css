@@ -354,6 +354,9 @@ border: 1px solid black;
   border: 1px solid black;
   height: 15vw;
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
 
@@ -434,7 +437,7 @@ position: absolute;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-botto6m: 200px;
   }
 
   .container2 h2 {
@@ -457,6 +460,7 @@ position: absolute;
     background-color: black;
     color: white;
     width: 100%;
+    margin-top: 150px;
   }
 
   .footercont {
@@ -481,9 +485,17 @@ position: absolute;
 }
 
 .colo {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-top: 50px;
-  margin-left: 65px;
+  margin-top: 60px;
+  margin-left: 130px;
+  margin-bottom: 23px;
+}
+
+.colo hr {
+  margin-bottom: 40px;
+
+}
+
+.colo div{
+  color: gray;
+  font-size: .8rem;
 }
