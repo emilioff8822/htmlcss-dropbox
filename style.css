@@ -47,6 +47,10 @@ header li a{
 
 }
 
+.around {
+  justify-content: space-around;
+}
+
 .centra {
   align-items: center;
 }
@@ -58,7 +62,7 @@ header li a{
 /*JUMBOTRON*/
 .jumbotron {
   padding-top: 80px;
-  height: 800px;
+  height: 600px;
   display: flex;
 align-items: center;
 background-color: lightblue;  }
@@ -88,23 +92,26 @@ background-color: lightblue;  }
 
 .freccia {
   font-size: 50px;
- 
-  left: 0px;
+left: 0px;
   font-weight: bold;
 
   ƒ
 }
 .image img {
-  width: 600px;
-  top: 140px;
-  left: 600px;
-  position: absolute;
+  width: 100%;
+  
+
 }
 
 .text {
   width: 40%;
-  margin-top: 30px;
+  margin-top: 70px;
   position: relative;
+}
+
+.image {
+  width: 60%;
+  margin-top: 70px;
 }
 .riga {
   display: flex;
@@ -229,9 +236,8 @@ background-color: lightblue;  }
 }
 
 .bottone {
-  position: absolute;
-  top: 60px;
-  left: 900px;
+  margin-right: 30px;
+  margin-top: 10px;
   padding: 10px;
   background-color: lightskyblue;
   color: white;
@@ -265,12 +271,22 @@ margin-left: 0px;
 }
 .bott {
 margin-top: 20px;
-margin-left: 20px;
+margin-left: 0px;
 padding: 10px;
 background-color:white;
 
 color: gray;
 border: 1px solid black;
+}
+
+.bott2 {
+  margin-left: 300px;
+  padding: 10px;
+background-color:white;
+
+color: gray;
+border: 1px solid black;
+
 }
 
 .riga2 img{
@@ -332,15 +348,36 @@ border: 1px solid black;
   height: 15vw;
   background-color: aqua;
   }
-  
+
+
+  .boximg{
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+
+
+  }
   .box.verde {
     background-color: green;
+  }
+  .col img {
+    width: 60%;
+  
   }
   .box.marrone {
     background-color: brown;
   }
   .box.blu {
     background-color: blue;
+  }
+  .box.bluchiaro{
+    background-color: lightblue;
+  }
+
+  .box.giallo {
+    background-color: rgb(246, 218, 9);
   }
 
   .box.rosso{
@@ -365,7 +402,7 @@ position: absolute;
   }  
  
 .sep {
-  height: 200px;
+  height: 350px;
   width: 100%;
   background-color: lightblue;
 }
