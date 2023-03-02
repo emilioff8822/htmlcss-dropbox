@@ -511,3 +511,43 @@ position: absolute;
   color: gray;
   font-size: .8rem;
 }
+
+.hrsep {
+  color: red;
+}
+
+/*DROPDOWN*/
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownmenu {
+  position: absolute;
+  display: none;
+  padding: 20px;
+  top: 20px;
+  right: -100px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  border-radius: 20px;
+  width: 200px;
+
+  transition: all 1s;
+  
+  
+
+}
+
+.dropdownmenu li  {
+  margin: 20px;
+  list-style: none;
+}
+
+
+.dropdown:hover .dropdownmenu{
+display: block;
+}
+.dropdownmenu li:hover {
+  text-decoration: underline;
+}
